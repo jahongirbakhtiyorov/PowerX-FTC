@@ -11,6 +11,8 @@ body {
     color: #333;
     line-height: 1.6;
     overflow-x: hidden;
+    padding: 0;
+
 }
 
 .container {
@@ -78,12 +80,14 @@ img {
 
 .about-team__inner {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .about-team__badge {
     display: inline-block;
     background-color: #0000FF;
     color: white;
+    margin: 20px 0 0 0 ;
     padding: 10px 25px;
     border-radius: 25px;
     font-weight: 700;
@@ -98,7 +102,7 @@ img {
 
 .about-team__text {
     max-width: 800px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0 auto;
     font-size: 1.1rem;
     line-height: 1.8;
     color: #ffffff;
@@ -254,6 +258,7 @@ img {
     padding: 60px 20px;
     background-color: #f9f9f9;
     text-align: center;
+    margin: 0;
 }
 
 .team__inner {
@@ -296,7 +301,7 @@ img {
 .team__leaders__list__item__name {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #000;
+    color: #46ec75;
     margin-bottom: 5px;
 }
 
@@ -379,6 +384,7 @@ img {
     padding: 2rem 1rem;
     max-width: 1200px;
     margin: 0 auto;
+    border-radius: 30px;
 }
 
 .about__container {
@@ -388,6 +394,7 @@ img {
 }
 
 .about__inner {
+    margin-bottom: 20px;
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     border-radius: 16px;
@@ -513,7 +520,7 @@ img {
 }
 
 .about__contribution-block {
-    margin-bottom: 1.5rem;
+    margin-bottom: 40px;
     padding: 1rem;
     background: linear-gradient(135deg, rgba(240, 147, 251, 0.1) 0%, rgba(245, 87, 108, 0.1) 100%);
     border-radius: 12px;
@@ -786,9 +793,7 @@ img {
 }
 
 @media (min-width: 768px) {
-    body {
-        padding: 3rem 0;
-    }
+  
 
     .program {
         padding: 1.5rem;
