@@ -50,6 +50,8 @@ img {
 .header__logo {
     width: 300px;
     margin-bottom: 20px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .header__title {
@@ -711,7 +713,7 @@ img {
 }
 
 .program__inner {
-    margin-bottom: 30px;
+    margin-bottom: 3    0px;
     background: #ffffff;
     border-radius: 16px;
     padding: 2rem;
